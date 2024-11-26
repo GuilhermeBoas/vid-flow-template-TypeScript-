@@ -1,0 +1,55 @@
+.superior__secao__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 247px;
+    top: 4em;
+    right: 0;
+    padding: 0 20px;
+    height: 63px;
+    width: auto;
+
+    background-color: white;
+    border-top: #144480 1px solid;
+    border-bottom: #144480 1px solid;
+    scrollbar-width: thin;
+    position: fixed;
+
+    
+    div {
+        position: relative;
+        display: flex;
+        
+        align-items: center;
+        overflow: scroll;
+        gap: 15px;
+        
+
+       scrollbar-width: none;
+        // mudar para none depois
+
+
+        a {
+            text-decoration: none;
+            color: #222222;
+            font-size: 1em;
+            background-color: #f2f2f2;
+            border-radius: 20px;
+            padding: 8px 20px;
+            cursor: pointer;
+            display: flex;
+            width: 100%;
+            white-space: nowrap;
+            
+
+
+        }
+
+        a:hover {
+            color: #ffffff;
+            background-color: #1875e9;
+            transition: .5s;
+        }
+
+    }
+}

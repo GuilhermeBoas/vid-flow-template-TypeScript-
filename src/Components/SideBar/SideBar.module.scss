@@ -1,0 +1,47 @@
+.menu__container {
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    
+    height: auto;
+    width: auto;
+    top: 80px;
+
+    
+    display: flex;
+    flex-direction: column;
+    
+    overflow: scroll;
+    scrollbar-width: none;
+    
+    
+    ul {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1em;
+        
+        padding: 20px 15px;
+        border-bottom: 1px solid black;
+        
+       
+
+        li {
+            
+            width: 200px;
+            a {
+                display: flex;
+                 align-items: center;
+                flex-direction: row;
+                gap: 1em;
+               
+                white-space: nowrap;
+                text-decoration: none;
+                width: 100%;
+
+                color: rgb(34, 34, 34);
+            }
+        }
+    }
+
+
+}
